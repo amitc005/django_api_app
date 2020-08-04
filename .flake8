@@ -1,0 +1,15 @@
+[flake8]
+ignore =
+    # Ignore document error
+    D,
+    # Sometime we should write import statements not at top of file. (e.g) for test coverage
+    E402,
+    # Please visit this link (https://github.com/PyCQA/pycodestyle/issues/498)
+    W503,
+    # We use the assigning lambda to parse the xml data.
+    E731,
+    # We use BLACK to change the format for all python files and E203 is not appropriate for PEP 8
+    E203,
+
+max-complexity = 12
+max-line-length= 90
