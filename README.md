@@ -16,7 +16,12 @@
 - Run Migration
   - `(.env) $ python manage.py migrate`
 - Run Server
+
   - `python manage.py runserver`
+
+- Run Test
+  - `(.env) $ pytest`
+  - <em>for more verbose</em> `(.env) $ pytest -vv`
 
 ### Important Urls:
 
