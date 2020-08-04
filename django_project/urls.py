@@ -22,11 +22,11 @@ from drf_yasg import openapi  # new
 
 schema_view = get_schema_view(  # new
     openapi.Info(
-        title="Blog API",
+        title="API Web",
         default_version="v1",
-        description="A sample API for learning DRF",
+        description="APIs for learning Django and its plugins",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="hello@example.com"),
+        contact=openapi.Contact(email="amitc0005@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
