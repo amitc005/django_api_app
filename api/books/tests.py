@@ -16,7 +16,7 @@ class BookModalTest(TestCase):
 
     def test_book_model(self):
         book = Book.objects.get(id=1)
-        self.assertEquals(book.title, "Harry Potter")
-        self.assertEquals(book.subtitle, "The Scocers stone")
-        self.assertEquals(book.author, "J.K Rollowing")
-        self.assertEquals(book.isbn, "TEST_ISBD")
+        assert book.title == "Harry Potter"
+        assert book.subtitle == "The Scocers stone"
+        assert book.author == "J.K Rollowing"
+        assert book.isbn == "TEST_ISBD"
