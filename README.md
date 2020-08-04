@@ -17,7 +17,7 @@
   - `(.env) $ python manage.py migrate`
 - Run Server
 
-  - `python manage.py runserver`
+  - `(.env) $ python manage.py runserver`
 
 - Run Test
   - `(.env) $ pytest`
@@ -32,4 +32,4 @@
 ### Vscode plug-in
 
 - **_REST Client for Visual Studio Code (for .rest file)_** \
-  VS Marketplace Link: https://marketplace.visualstudio.com/items?
+  [VS Marketplace Link](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
