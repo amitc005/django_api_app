@@ -47,10 +47,7 @@ INSTALLED_APPS = [
     "dj_rest_auth.registration",
     "drf_yasg",
     # Local
-    "books.apps.BooksConfig",
     "api.apps.ApiConfig",
-    "post.apps.PostConfig",
-    "happiness.apps.HappinessConfig",
 ]
 
 

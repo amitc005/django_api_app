@@ -1,12 +1,9 @@
-from django.urls import path
 from rest_framework.routers import SimpleRouter
-from .views import (
-    UserViewSet,
-    PostViewSet,
-    BookViewSet,
-    TodoViewSet,
-    HappyRecordViewSet,
-)
+from api.books.views import BookViewSet
+from api.post.views import PostViewSet
+from api.happiness.views import HappyRecordViewSet
+from api.todo.views import TodoViewSet
+from api.user.views import UserViewSet
 
 # urlpatterns = [
 #     path("books", BookListAPIView.as_view()),

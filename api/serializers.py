@@ -1,7 +1,8 @@
 from rest_framework import serializers
-from books.models import Book, Todo
-from post.models import Post
-from happiness.models import HappyRecord
+from api.books.models import Book
+from api.todo.models import Todo
+from api.post.models import Post
+from api.happiness.models import HappyRecord
 from django.contrib.auth import get_user_model
 
 
@@ -43,7 +44,6 @@ class HappyRecordSerializer(serializers.ModelSerializer):
         """
         Create and return a new `Snippet` instance, given the validated data.
         """
-        happy_level = validated_data["happy_level"]
 
         return HappyRecord.objects.create(**validated_data)
 
