@@ -23,3 +23,8 @@
 - Server URL: http://127.0.0.1:8000/
 - Swagger docs: http://127.0.0.1:8000/docs/
 - redoc docs: http://127.0.0.1:8000/redoc
+
+### Vscode plug-in
+
+- **_REST Client for Visual Studio Code (for .rest file)_** \
+  VS Marketplace Link: https://marketplace.visualstudio.com/items?

@@ -1,0 +1,20 @@
+## Authorization
+POST http://localhost:8000/api/auth/login/
+content-type: application/json
+
+{
+    "username": "redhood005" ,
+    "email": "achavhan@texadasoftware.com",
+    "password":"ASDF1234"
+}
+
+
+POST http://localhost:8000/api/dj-rest-auth/registration/
+content-type: application/json
+
+[
+    "username": "redhood005"
+    "email": "achavhan@texadasoftware.com"
+    "password1": "ASDF1234"
+    "password2": "ASDF1234"
+}
